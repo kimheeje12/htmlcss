@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meter 태그</title>
+    <style>
+        ul li{
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <label>점유율 0.8</label>
+            <meter value="0.8"></meter>
+        </li>
+    </ul>        
+    <ul>
+        <li>
+            <label>사용량 64%</label>
+            <meter value="64" min="0" max="100"></meter>
+        </li>
+        <li>
+            <label>트래픽 초과</label>
+            <meter value="9216" min="1024" max="10240" low="2000" high="8000"></meter>
+        </li>
+    </ul>
+    <!--meter 태그: 값이 차지하는 크기-->
+</body>
+</html>

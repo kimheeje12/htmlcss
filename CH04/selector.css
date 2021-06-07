@@ -1,0 +1,9 @@
+body{
+    font-size: 1.2em; /*1em: 16px*/
+}
+h1{
+    color:orange !important; /*!important: style 우선순위가 높음 */
+}
+.redText{
+    color:red;
+}

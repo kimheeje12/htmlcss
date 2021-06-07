@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position fixed 속성</title>
+    <style>
+        #contents{
+            width:400px;
+        }
+        #box{
+            width:50px;
+            height:50px;
+            background-color: red;
+            position: fixed; /* 계속 고정됨 */
+            top: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="contents">
+        <p>fixed 값을 사용하는 요소 역시 absolute값을 사용하는 요소처럼 문서 흐름과는
+            상관없이 좌표로 위치를 결정하지만, 기준이 되는 요소가 부모 요소가 아니라 브라우저
+            창이 기준이 된다. 브라우저 창의 왼쪽 위 모서리 부분을 원점으로 좌표가 계산되고 
+            한 번 배치되면 fixed라는 이름처럼 브라우저 창을 스크롤하더라도 계속 고장되어 표시된다.
+        </p>        
+        <p>fixed 값을 사용하는 요소 역시 absolute값을 사용하는 요소처럼 문서 흐름과는
+            상관없이 좌표로 위치를 결정하지만, 기준이 되는 요소가 부모 요소가 아니라 브라우저
+            창이 기준이 된다. 브라우저 창의 왼쪽 위 모서리 부분을 원점으로 좌표가 계산되고 
+            한 번 배치되면 fixed라는 이름처럼 브라우저 창을 스크롤하더라도 계속 고장되어 표시된다.
+        </p>        
+    </div>
+</body>
+</html>

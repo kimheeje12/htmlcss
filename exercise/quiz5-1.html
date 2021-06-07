@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약 정보</title>
+    <style>
+        fieldset{
+            width: 700px;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            line-height: 2.5;
+        }
+        label{
+            width: 80px;
+            float: left;
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>예약 정보</h1>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="r-name">이 름</label>
+                <input type="text" id="r-name" autofocus required>
+            </li>
+            <li>
+                <label for="r-phone">전 화</label>
+                <input type="tel" id="r-phone" placeholder="핸드폰 번호를 입력해주세요" required>
+            </li>
+            <li>
+                <label for="email">이메일</label>
+                <input type="email" id="email">
+            </li>
+            <li>
+                <input type="submit" value="예약하기">
+            </li>
+        </ul>
+    </form>    
+</fieldset>
+</body>
+</html>

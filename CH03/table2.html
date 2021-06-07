@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기 및 스타일</title>
+    <style>
+        table{
+            border: 1px solid #ccc;
+            /* width: 300px;
+            height: 200px; */
+        }
+        td{
+            border: 1px solid #ccc;
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>표 만들기</h2>
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- 행 합치기: rowspan -->
+    <h2>표 만들기</h2>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <!-- 열 합치기: colspan -->
+</body>
+</html>

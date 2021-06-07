@@ -1,0 +1,31 @@
+#container{
+    width: 640px;
+    margin: 0 auto;
+}
+#check{
+    border: 1px solid #ccc; 
+}
+h1{
+    background-color: #000;
+    color:#fff;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0;
+}
+h2{
+    color:#ff0000;
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.accent{
+    color: #0000ff;
+}
+.smalltext{
+    font-size: 0.7em;
+}

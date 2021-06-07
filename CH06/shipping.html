@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배송 정보</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul li{
+            /* line-height: 3; */
+            margin: 15px 0;
+        }
+        label{
+            width: 80px;
+            float: left; /* 왼쪽으로 배치*/
+            text-align: right;
+            margin-right: 10px;
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>배송 정보</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>배송 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user-name">이름</label>
+                        <input type="text" id="user-name">    
+                    </li>
+                    <li>
+                        <label for="addr">배송 주소</label>
+                        <input type="text" id="addr">    
+                    </li>
+                    <li>
+                        <label for="email">이메일 주소</label>
+                        <input type="email" id="email">    
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="tel" id="phone">    
+                    </li>
+                </ul>
+        </fieldset>
+        <div>
+            <input type="submit" value="주문하기">
+            <input type="reset" value="취소하기">
+        </div>
+    </form>       
+</body>
+</html>

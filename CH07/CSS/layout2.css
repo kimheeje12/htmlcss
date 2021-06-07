@@ -1,0 +1,35 @@
+#container{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px dotted #ccc;
+}
+header{
+    width: 920px;
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+section{
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    width: 640px;
+    height: 600px;
+    float: left;
+    padding: 0 20px;
+    background-color: rgb(199, 212, 250);
+}
+aside{
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 600px;
+    float: right;
+    padding: 0 20px;
+    background-color: #eee;
+}
+footer{
+    width: 920px;
+    border: 1px dotted #ccc;
+    clear: both;
+    padding: 0 20px;
+}

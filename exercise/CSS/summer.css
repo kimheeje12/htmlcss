@@ -1,0 +1,15 @@
+body{
+    background-color: pink;
+}
+h2{
+    color:rgb(255,0,0);
+}
+p{
+    color:green;
+    font-family: "궁서";
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* span{
+    color:#ff0000;
+} */
