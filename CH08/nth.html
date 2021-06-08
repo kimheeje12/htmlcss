@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구조 가상 선택자</title>
+    <style>
+        .container{
+            width:960px;
+            margin:0 auto;
+        }
+        .contents{
+            width: 400px;
+            margin:0 auto;
+            border: 1px solid #222;
+            padding: 20px;
+        }
+        .contents :nth-child(3){
+            background:#ffff00;
+        }
+        .contents h2:nth-of-type(3){
+            background:#00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contents">
+            <h2>이용 안내</h2>
+            <p>구조 가상 클래스란 웹 문서의 구조를 기준으로 특정 위치에 있는 요소를 찾아 스타일
+                을 적용할 때 사용하는 가상 클래스 선택자이다.</p>
+            <p>요소가 여러개 나열되어 있는 경우에는 class나 id를 쓰지 않고도 스타일을 
+                지정할 요소가 몇 번째인지를 따져서 스타일을 적용할 수 있다.</p>
+            <h2>객실 소개</h2>
+            <p>구조 가상 클래스란 웹 문서의 구조를 기준으로 특정 위치에 있는 요소를 찾아 스타일
+                을 적용할 때 사용하는 가상 클래스 선택자이다.</p>
+            <h2>예약 방법 및 요금</h2>
+            <p>구조 가상 클래스란 웹 문서의 구조를 기준으로 특정 위치에 있는 요소를 찾아 스타일
+                을 적용할 때 사용하는 가상 클래스 선택자이다.</p>
+        </div>
+    </div>    
+</body>
+</html>

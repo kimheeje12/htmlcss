@@ -97,10 +97,13 @@ footer{
     margin-top: 20px;
     margin-left: 50px;
 }
-#bottomMenu li{
+#bottomMenu ul li{
     display: inline;
     padding: 5px 20px;
     border-right: 1px solid #ddd;
+}
+#bottomMenu ul li:nth-last-child(1){
+    border:none;
 }
 #bottomMenu li a{
     color:black;

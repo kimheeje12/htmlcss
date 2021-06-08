@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI 요소 선택자</title>
+    <style>
+        fieldset{
+            margin-bottom: 15px;
+        }
+        input: disabled{ /* disabled 속성에 사용 */
+            background: #ddd;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            height: 20px;
+        }
+        input: checked + span{ /* checked - 가상 선택자(radio, checkbox인 경우)} */
+            color:#0000ff;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <label for="name">
+                이름<input type="text" id="name" disabled value="홍길동"></label>
+        </fieldset>
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요</p>
+            <label>
+                <input type="radio" name="subject" value:"speaking">
+                <span>회화</span></label>
+            <label>
+                <input type="radio" name="subject" value:"grammer">
+                <span>문법</span></label>
+            <label>
+                <input type="radio" name="subject" value:"writing">
+                <span>작문</span></label>
+        </fieldset>
+    </form>
+    <!-- disabled: 이름 표시 x / value: 별로의 표시 -->
+</body>
+</html>
