@@ -1,0 +1,47 @@
+/* 모바일 기준 */
+*{margin: 0; padding: 0;}
+#container{width:100% margin:0 auto;}
+
+/* header 스타일 */
+header{width: 100%; height: 250px;
+        background: url("../images/bg0.jpg") no-repeat;
+        background-size: cover;}
+
+nav{height: 60px; background: #0388f5; line-height: 60px;}
+#main-nav{list-style: none; text-align: center;}
+#main-nav li{display: inline; margin:0 15px}
+#main-nav li a:link, a:visited{text-decoration: none; color: greenyellow}
+#main-nav li a:hover{color: yellow}
+/* 본문 스타일 */
+section{width: 100%; padding: 10px 5%;}
+section:nth-child(2n+1){background: rgb(215, 239, 253)}
+section .page-title{padding: 15px}
+section .content .photo{display: none;}
+section .content .text p{line-height: 2em; padding-left: 30px;}
+section .content #career li{margin-left: 50px; line-height: 2em;}
+section .content #link{padding-left: 30px;}
+section .content #link li{margin: 15px}
+section .content #link li a{text-decoration: none; color:black;}
+/* footer 스타일 */
+footer{height: 60px; border-top: 2px solid #ccc}
+footer #bottomMenu{margin-top: 20px; margin-left: 80px;}
+footer #bottomMenu ul{list-style: none;}
+footer #bottomMenu ul li{display: inline; padding: 0 20px; border-right: 1px solid #ccc}
+footer #bottomMenu ul li:last-child{border:none}
+footer #bottomMenu ul li a{text-decoration: none; color: #222}
+
+/* 태블릿 기준 - 768px 이상*/
+@media screen and (min-width: 768px) {
+    header{height: 300px;}
+    #who, #job{float: left; width: 50%; height: 350px; box-sizing: border-box;}
+    #skill{clear:both}
+}
+
+/* PC 기준 - 996px 이상*/
+@media screen and (min-width: 996px) {
+    #container{width:996px; margin:0 auto; border: 1px solid skyblue;}
+    header{height: 320px;}
+    #who, #job, #skill{width: 100%; height: 300px;}
+    #who .photo{float:left; display:block; margin: 10px 20px;}
+    #skill.photo{float:right; display:block; margin-right: 15%;}
+}
